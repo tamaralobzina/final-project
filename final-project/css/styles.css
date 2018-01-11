@@ -1,0 +1,306 @@
+body {
+    margin: 0;
+    font: 18px/2 Arial, sans-serif;
+    background-color:rgb(245, 245, 245)
+}
+
+.container {
+    width: 1035px;
+    margin: 0 auto;
+}
+
+
+.basketContent{
+    padding-top: 25px;
+    background: #fff;
+}
+
+.basketMessage {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.basketHeader {
+    font-size: 40px;
+    font-family: 'Proxima Nova Bold';
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.orderSummary{
+    background-color: #fff;
+    color: #222;
+    padding: 18px 0 30px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.orderDetails{
+    margin: 0 20px;
+    max-width: 100%;
+}
+
+orderDetails1 {
+width:200px;
+    height:133px;
+    margin-right:38px;
+    min-height:133px;
+    flex-shrink:0;
+}
+
+.orderDetails2{
+    padding: 0 0 8px;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: space-between;
+}
+
+.selectedItem{
+    flex-direction: row;
+    margin-top: 10px;
+    padding:5px 0 0;
+    display:flex;
+}
+
+
+.selectedItemHere{
+    font-size: 24px;
+    font-family: Proxima Nova Rg Bold;
+    line-height: 1.08;
+    letter-spacing: .6px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 14px;
+}
+
+    a{
+        color: #222222;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+.delete {
+    font-size: 14px;
+    width: 54px;
+}
+
+.pink_link {
+    color: #ff8c99;
+    border-bottom: 1px solid rgba(236, 236, 236, 0.4);
+}
+
+a {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.checkout{
+    padding:35px 60px 40px;
+    margin-bottom:120px;
+    background-color: #ffffff;
+}
+
+.content{
+    margin:0 20px;
+    max-width:100%;
+}
+
+form{
+    display: block;
+}
+
+.checkoutTitle{
+    font-size:40px;
+    font-family:'Proxima Nova Rg Bold';
+    letter-spacing: 0.4px;
+    text-align: center;
+    margin-bottom: 27px;
+}
+
+.checkoutFormWrapper{
+    flex-direction:row;
+    display:flex;
+}
+
+.checkoutForm{
+    width:400px;
+    margin-right:120px;
+    display:inline-block;
+}
+
+.checkoutForm1{
+    width:100%;
+}
+
+.checkoutFormBlock{
+    margin-bottom:40px;
+}
+
+.checkoutFormBlockName{
+    font-size: 18px;
+    font-family: 'Proxima Nova Rg Bold';
+    font-weight: bold;
+    line-height: 1.33;
+    letter-spacing: 0.4px;
+    margin-bottom: 14px;
+}
+
+.checkoutFormFieldName{
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    margin-bottom: 6px;
+}
+
+.checkoutFormField{
+    margin-bottom:20px;
+}
+
+.checkoutFormInput{
+    box-sizing:border-box;
+    width:100%;
+}
+
+input{
+    padding: 14px 15px;
+    color:#222222;
+    font-size:15px;
+    border:solid 1px #f0f0f0;
+    background-color: #ffffff;
+    border-radius:4px;
+    -webkit-appearance:textfield;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 11px system-ui;
+    -webkit-writing-mode: horizontal-tb;
+}
+
+.checkoutFormSmallInput{
+    width:100px;
+}
+
+.checkoutFormTextArea{
+    width: 100%;
+    height: 80px;
+    resize: none;
+    box-sizing: border-box;
+}
+
+textarea{
+    padding: 14px 15px;
+    color: var(--dark-grey);
+    font-size: 15px;
+    border: solid 1px #f0f0f0;
+    background-color: #ffffff;
+    border-radius: 4px;
+    -webkit-appearance: textarea;
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    cursor: text;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 11px system-ui;
+    -webkit-writing-mode: horizontal-tb;
+}
+
+.checkoutTotal{
+    width:480px;
+    display:inline-block;
+}
+
+.check{
+    padding:47px 58px 60px;
+    min-height:581px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid 4px #222222;
+    color: #222222;
+}
+
+.total{
+    font-size: 24px;
+    font-family: Proxima Nova Rg Bold;
+    line-height: 1;
+    letter-spacing: .6px;
+    margin-bottom: 13px;
+    font-weight:bold;
+}
+
+.mycheckout{
+    font-size: 18px;
+    line-height: 1.44;
+    letter-spacing: .4px;
+    margin-bottom: 8px;
+}
+
+.goods{
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.price{
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%;
+}
+
+.pricing{
+    position: relative;
+    padding-right: 12px;
+    white-space: nowrap;
+}
+
+.hryvna{
+    font-size: 14px;
+    color: #222;
+    font-family: Proxima Nova Rg;
+}
+
+.shipment{
+    font-size: 18px;
+    line-height: 1.44;
+    letter-spacing: .4px;
+    margin-bottom: 8px;
+}
+
+.shippingInfo{
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+}
+
+shippingCost{
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+}
